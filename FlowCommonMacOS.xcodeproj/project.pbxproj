@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1FD204B22788E01200AC10C6 /* FlowCommonMacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD204A92788E01200AC10C6 /* FlowCommonMacOS.framework */; };
-		1FD204B72788E01200AC10C6 /* FlowCommonMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204B62788E01200AC10C6 /* FlowCommonMacOSTests.swift */; };
 		1FD204B82788E01200AC10C6 /* FlowCommonMacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD204AC2788E01200AC10C6 /* FlowCommonMacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD204FC2788E1C800AC10C6 /* CGPathSVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204FB2788E1C800AC10C6 /* CGPathSVGTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +26,30 @@
 		1FD204A92788E01200AC10C6 /* FlowCommonMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowCommonMacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD204AC2788E01200AC10C6 /* FlowCommonMacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowCommonMacOS.h; sourceTree = "<group>"; };
 		1FD204B12788E01200AC10C6 /* FlowCommonMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowCommonMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FD204B62788E01200AC10C6 /* FlowCommonMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCommonMacOSTests.swift; sourceTree = "<group>"; };
+		1FD204E72788E14B00AC10C6 /* CGPath+SVG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPath+SVG.swift"; sourceTree = "<group>"; };
+		1FD204E82788E14B00AC10C6 /* NSShadow+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSShadow+Extension.swift"; sourceTree = "<group>"; };
+		1FD204E92788E14B00AC10C6 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		1FD204EA2788E14B00AC10C6 /* CAKeyframeAnimation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAKeyframeAnimation+Extension.swift"; sourceTree = "<group>"; };
+		1FD204EB2788E14B00AC10C6 /* CALayer+Constructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Constructor.swift"; sourceTree = "<group>"; };
+		1FD204EC2788E14B00AC10C6 /* CAMediaTimingFunction+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+Extension.swift"; sourceTree = "<group>"; };
+		1FD204ED2788E14B00AC10C6 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		1FD204EE2788E14B00AC10C6 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1FD204EF2788E14B00AC10C6 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		1FD204F02788E14B00AC10C6 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		1FD204F12788E14B00AC10C6 /* NSMutableParagraphStyle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Extension.swift"; sourceTree = "<group>"; };
+		1FD204F22788E14B00AC10C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1FD204F32788E14B00AC10C6 /* NSImage+CGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+CGImage.swift"; sourceTree = "<group>"; };
+		1FD204F42788E14B00AC10C6 /* ImageLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLayer.swift; sourceTree = "<group>"; };
+		1FD204F52788E14B00AC10C6 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		1FD204F62788E14B00AC10C6 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		1FD204F72788E14C00AC10C6 /* CATransaction+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CATransaction+Extension.swift"; sourceTree = "<group>"; };
+		1FD204F82788E15A00AC10C6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1FD204F92788E15A00AC10C6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1FD204FB2788E1C800AC10C6 /* CGPathSVGTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPathSVGTests.swift; sourceTree = "<group>"; };
+		1FD204FE2788E1F700AC10C6 /* TestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestsInfo.plist; sourceTree = "<group>"; };
+		1FD204FF2788E1F700AC10C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD205012788E1F700AC10C6 /* TestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestsInfo.plist; sourceTree = "<group>"; };
+		1FD205022788E24D00AC10C6 /* FlowCommonMacOS.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FlowCommonMacOS.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +74,13 @@
 		1FD2049F2788E01200AC10C6 = {
 			isa = PBXGroup;
 			children = (
-				1FD204AB2788E01200AC10C6 /* FlowCommonMacOS */,
+				1FD205022788E24D00AC10C6 /* FlowCommonMacOS.podspec */,
+				1FD204AC2788E01200AC10C6 /* FlowCommonMacOS.h */,
+				1FD204F92788E15A00AC10C6 /* LICENSE */,
+				1FD204F82788E15A00AC10C6 /* README.md */,
+				1FD204FD2788E1F700AC10C6 /* Metadata */,
+				1FD205012788E1F700AC10C6 /* TestsInfo.plist */,
+				1FD204E52788E14000AC10C6 /* Sources */,
 				1FD204B52788E01200AC10C6 /* FlowCommonMacOSTests */,
 				1FD204AA2788E01200AC10C6 /* Products */,
 			);
@@ -66,20 +95,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1FD204AB2788E01200AC10C6 /* FlowCommonMacOS */ = {
-			isa = PBXGroup;
-			children = (
-				1FD204AC2788E01200AC10C6 /* FlowCommonMacOS.h */,
-			);
-			path = FlowCommonMacOS;
-			sourceTree = "<group>";
-		};
 		1FD204B52788E01200AC10C6 /* FlowCommonMacOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				1FD204B62788E01200AC10C6 /* FlowCommonMacOSTests.swift */,
+				1FD204FB2788E1C800AC10C6 /* CGPathSVGTests.swift */,
 			);
 			path = FlowCommonMacOSTests;
+			sourceTree = "<group>";
+		};
+		1FD204E52788E14000AC10C6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1FD204E62788E14B00AC10C6 /* FlowCommonMacOSFiles */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1FD204E62788E14B00AC10C6 /* FlowCommonMacOSFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1FD204E72788E14B00AC10C6 /* CGPath+SVG.swift */,
+				1FD204EF2788E14B00AC10C6 /* ShapeView.swift */,
+				1FD204F02788E14B00AC10C6 /* Animation.swift */,
+				1FD204F22788E14B00AC10C6 /* UIView+Extension.swift */,
+				1FD204EE2788E14B00AC10C6 /* UIImage+Extension.swift */,
+				1FD204F42788E14B00AC10C6 /* ImageLayer.swift */,
+				1FD204ED2788E14B00AC10C6 /* Timeline.swift */,
+				1FD204EA2788E14B00AC10C6 /* CAKeyframeAnimation+Extension.swift */,
+				1FD204F12788E14B00AC10C6 /* NSMutableParagraphStyle+Extension.swift */,
+				1FD204EB2788E14B00AC10C6 /* CALayer+Constructor.swift */,
+				1FD204F72788E14C00AC10C6 /* CATransaction+Extension.swift */,
+				1FD204F52788E14B00AC10C6 /* TextView.swift */,
+				1FD204F32788E14B00AC10C6 /* NSImage+CGImage.swift */,
+				1FD204F62788E14B00AC10C6 /* Sound.swift */,
+				1FD204EC2788E14B00AC10C6 /* CAMediaTimingFunction+Extension.swift */,
+				1FD204E82788E14B00AC10C6 /* NSShadow+Extension.swift */,
+				1FD204E92788E14B00AC10C6 /* Layer.swift */,
+			);
+			path = FlowCommonMacOSFiles;
+			sourceTree = "<group>";
+		};
+		1FD204FD2788E1F700AC10C6 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				1FD204FE2788E1F700AC10C6 /* TestsInfo.plist */,
+				1FD204FF2788E1F700AC10C6 /* Info.plist */,
+			);
+			path = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +209,7 @@
 					};
 					1FD204B02788E01200AC10C6 = {
 						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -198,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD204B72788E01200AC10C6 /* FlowCommonMacOSTests.swift in Sources */,
+				1FD204FC2788E1C800AC10C6 /* CGPathSVGTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,14 +456,22 @@
 		1FD204BF2788E01200AC10C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3GED29J33;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flow.FlowCommonMacOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlowCommonMacOSTests/FlowCommonMacOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -408,14 +479,21 @@
 		1FD204C02788E01200AC10C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3GED29J33;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flow.FlowCommonMacOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "FlowCommonMacOSTests/FlowCommonMacOSTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

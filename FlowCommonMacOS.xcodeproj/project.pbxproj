@@ -10,6 +10,23 @@
 		1FD204B22788E01200AC10C6 /* FlowCommonMacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD204A92788E01200AC10C6 /* FlowCommonMacOS.framework */; };
 		1FD204B82788E01200AC10C6 /* FlowCommonMacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD204AC2788E01200AC10C6 /* FlowCommonMacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FD204FC2788E1C800AC10C6 /* CGPathSVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204FB2788E1C800AC10C6 /* CGPathSVGTests.swift */; };
+		1FFD28192788E9E900046E9A /* CGPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204E72788E14B00AC10C6 /* CGPath+SVG.swift */; };
+		1FFD281A2788E9F600046E9A /* NSShadow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204E82788E14B00AC10C6 /* NSShadow+Extension.swift */; };
+		1FFD281B2788E9F600046E9A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EE2788E14B00AC10C6 /* UIImage+Extension.swift */; };
+		1FFD281C2788E9F600046E9A /* CALayer+Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EB2788E14B00AC10C6 /* CALayer+Constructor.swift */; };
+		1FFD281D2788E9F600046E9A /* NSImage+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F32788E14B00AC10C6 /* NSImage+CGImage.swift */; };
+		1FFD281E2788E9F600046E9A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F02788E14B00AC10C6 /* Animation.swift */; };
+		1FFD281F2788E9F600046E9A /* CAMediaTimingFunction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EC2788E14B00AC10C6 /* CAMediaTimingFunction+Extension.swift */; };
+		1FFD28202788E9F600046E9A /* CATransaction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F72788E14C00AC10C6 /* CATransaction+Extension.swift */; };
+		1FFD28212788E9F600046E9A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F62788E14B00AC10C6 /* Sound.swift */; };
+		1FFD28222788E9F600046E9A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F52788E14B00AC10C6 /* TextView.swift */; };
+		1FFD28232788E9F600046E9A /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204E92788E14B00AC10C6 /* Layer.swift */; };
+		1FFD28242788E9F600046E9A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204ED2788E14B00AC10C6 /* Timeline.swift */; };
+		1FFD28252788E9F600046E9A /* ImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F42788E14B00AC10C6 /* ImageLayer.swift */; };
+		1FFD28262788E9F600046E9A /* CAKeyframeAnimation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EA2788E14B00AC10C6 /* CAKeyframeAnimation+Extension.swift */; };
+		1FFD28272788E9F600046E9A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F22788E14B00AC10C6 /* UIView+Extension.swift */; };
+		1FFD28282788E9F600046E9A /* NSMutableParagraphStyle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F12788E14B00AC10C6 /* NSMutableParagraphStyle+Extension.swift */; };
+		1FFD28292788E9F600046E9A /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EF2788E14B00AC10C6 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,6 +271,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFD28242788E9F600046E9A /* Timeline.swift in Sources */,
+				1FFD281B2788E9F600046E9A /* UIImage+Extension.swift in Sources */,
+				1FFD281A2788E9F600046E9A /* NSShadow+Extension.swift in Sources */,
+				1FFD28272788E9F600046E9A /* UIView+Extension.swift in Sources */,
+				1FFD28202788E9F600046E9A /* CATransaction+Extension.swift in Sources */,
+				1FFD28232788E9F600046E9A /* Layer.swift in Sources */,
+				1FFD28252788E9F600046E9A /* ImageLayer.swift in Sources */,
+				1FFD28262788E9F600046E9A /* CAKeyframeAnimation+Extension.swift in Sources */,
+				1FFD281F2788E9F600046E9A /* CAMediaTimingFunction+Extension.swift in Sources */,
+				1FFD281D2788E9F600046E9A /* NSImage+CGImage.swift in Sources */,
+				1FFD281C2788E9F600046E9A /* CALayer+Constructor.swift in Sources */,
+				1FFD281E2788E9F600046E9A /* Animation.swift in Sources */,
+				1FFD28292788E9F600046E9A /* ShapeView.swift in Sources */,
+				1FFD28282788E9F600046E9A /* NSMutableParagraphStyle+Extension.swift in Sources */,
+				1FFD28212788E9F600046E9A /* Sound.swift in Sources */,
+				1FFD28192788E9E900046E9A /* CGPath+SVG.swift in Sources */,
+				1FFD28222788E9F600046E9A /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +369,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -392,6 +427,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -456,6 +492,7 @@
 		1FD204BF2788E01200AC10C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -470,8 +507,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flow.FlowCommonMacOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "FlowCommonMacOSTests/FlowCommonMacOSTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -479,6 +517,7 @@
 		1FD204C02788E01200AC10C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -493,7 +532,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flow.FlowCommonMacOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "FlowCommonMacOSTests/FlowCommonMacOSTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

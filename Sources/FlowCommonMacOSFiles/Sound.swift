@@ -1,4 +1,4 @@
-// Copyright © 2016-2019 JABT Labs Inc.
+// Copyright © 2016-2021 JABT Labs Inc.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to

@@ -1,4 +1,4 @@
-// Copyright © 2016-2021 JABT Labs Inc.
+// Copyright © 2016-2022 JABT Labs Inc.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to
@@ -17,7 +17,7 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 
-
+import Foundation
 import AppKit
 
 public extension CAKeyframeAnimation {

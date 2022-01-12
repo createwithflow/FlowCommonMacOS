@@ -1,4 +1,4 @@
-// Copyright © 2016-2019 JABT
+// Copyright © 2016-2022 JABT Labs Inc.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to
@@ -22,13 +22,3 @@ import AppKit
 public class TextLayer: CATextLayer {
 
 }
-
-//open class TextView: UILabel {
-//    open var textLayer: CATextLayer {
-//        return layer as! CATextLayer
-//    }
-//
-//    override open class var layerClass: AnyClass {
-//        return CATextLayer.self
-//    }
-//}

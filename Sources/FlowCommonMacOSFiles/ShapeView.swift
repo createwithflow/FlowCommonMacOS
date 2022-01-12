@@ -1,4 +1,4 @@
-// Copyright © 2016-2019 JABT
+// Copyright © 2016-2022 JABT Labs Inc.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to
@@ -20,54 +20,25 @@
 import AppKit
 
 open class ShapeLayer: CAShapeLayer {
-//    /// A sublayer which can be used to apply a gradient fill to `self`.
-//    open var gradientLayer: CAGradientLayer? {
-//        set {
-//            // Remove old gradient layer
-//            if let gradientLayer = gradientLayer {
-//                gradientLayer.removeFromSuperlayer()
-//            }
-//            // Replace old gradient with new one
-//            if let newGradientLayer = newValue {
-//                layer.addSublayer(newGradientLayer)
-//            }
-//        }
-//
-//        get {
-//            return layer.sublayers?.first(where: { $0 is CAGradientLayer }) as? CAGradientLayer
-//        }
-//    }
+    public var gradientLayer = CAGradientLayer()
 
-//    public func addGradient(type: CAGradientLayerType, startPoint: CGPoint, endPoint: CGPoint, stops: [(color: CGColor, location: NSNumber)]) {
-//        let gradientLayer = CAGradientLayer()
-//        gradientLayer.frame = shapeLayer.bounds
-//        self.gradientLayer = gradientLayer
-//
-//
-//        let mask = CAShapeLayer()
-//        mask.path = shapeLayer.path
-//        mask.fillColor = NSColor.black.cgColor
-//        mask.strokeColor = nil
-//
-//        gradientLayer.startPoint = startPoint
-//        gradientLayer.endPoint = endPoint
-//        gradientLayer.colors = stops.map { $0.color }
-//        gradientLayer.locations = stops.map { $0.location }
-//        gradientLayer.type = type
-//        gradientLayer.frame = shapeLayer.bounds
-//        gradientLayer.mask = mask
-//    }
+    public func addGradient(type: CAGradientLayerType, startPoint: CGPoint, endPoint: CGPoint, stops: [(color: CGColor, location: NSNumber)]) {
+        let mask = CAShapeLayer()
+        mask.path = path
+        mask.fillColor = NSColor.black.cgColor
+        mask.strokeColor = nil
 
-//    open var path: CGPath? {
-//        get {
-//            return shapeLayer.path
-//        }
-//        set {
-//            shapeLayer.path = newValue
-//        }
-//    }
+        gradientLayer.removeFromSuperlayer()
+        gradientLayer = CAGradientLayer()
+        gradientLayer.frame = bounds
 
-//    override open class var layerClass: AnyClass {
-//        return CAShapeLayer.self
-//    }
+        gradientLayer.startPoint = startPoint
+        gradientLayer.endPoint = endPoint
+        gradientLayer.colors = stops.map { $0.color }
+        gradientLayer.locations = stops.map { $0.location }
+        gradientLayer.type = type
+        gradientLayer.mask = mask
+
+        addSublayer(gradientLayer)
+    }
 }

@@ -1,4 +1,4 @@
-// Copyright © 2016-2021 JABT Labs Inc.
+// Copyright © 2016-2022 JABT Labs Inc.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to
@@ -21,10 +21,12 @@ import AppKit
 
 extension NSImage {
     var cgImage: CGImage? {
-        guard let data = self.tiffRepresentation,
-              let imageSource = CGImageSourceCreateWithData(data as CFData, nil) else {
-            return nil
+        get {
+            guard let data = self.tiffRepresentation,
+                  let imageSource = CGImageSourceCreateWithData(data as CFData, nil) else {
+                return nil
+            }
+            return CGImageSourceCreateImageAtIndex(imageSource, 0, nil)
         }
-        return CGImageSourceCreateImageAtIndex(imageSource, 0, nil)
     }
 }

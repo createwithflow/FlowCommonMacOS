@@ -1,4 +1,4 @@
-// Copyright © 2016-2021 JABT Labs Inc.
+// Copyright © 2016-2022 JABT Labs Inc.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to
@@ -21,7 +21,7 @@ import AppKit
 
 extension NSImage {
     func resized(to size: CGSize) -> NSImage? {
-        guard let image = self.cgImage else {
+        guard let image = cgImage else {
             return nil
         }
         return NSImage(cgImage: image, size: size)

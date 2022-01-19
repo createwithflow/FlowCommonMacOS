@@ -12,7 +12,6 @@
 		1FD204FC2788E1C800AC10C6 /* CGPathSVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204FB2788E1C800AC10C6 /* CGPathSVGTests.swift */; };
 		1FFD28192788E9E900046E9A /* CGPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204E72788E14B00AC10C6 /* CGPath+SVG.swift */; };
 		1FFD281A2788E9F600046E9A /* NSShadow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204E82788E14B00AC10C6 /* NSShadow+Extension.swift */; };
-		1FFD281B2788E9F600046E9A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EE2788E14B00AC10C6 /* UIImage+Extension.swift */; };
 		1FFD281C2788E9F600046E9A /* CALayer+Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EB2788E14B00AC10C6 /* CALayer+Constructor.swift */; };
 		1FFD281D2788E9F600046E9A /* NSImage+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F32788E14B00AC10C6 /* NSImage+CGImage.swift */; };
 		1FFD281E2788E9F600046E9A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F02788E14B00AC10C6 /* Animation.swift */; };
@@ -24,7 +23,6 @@
 		1FFD28242788E9F600046E9A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204ED2788E14B00AC10C6 /* Timeline.swift */; };
 		1FFD28252788E9F600046E9A /* ImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F42788E14B00AC10C6 /* ImageLayer.swift */; };
 		1FFD28262788E9F600046E9A /* CAKeyframeAnimation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EA2788E14B00AC10C6 /* CAKeyframeAnimation+Extension.swift */; };
-		1FFD28272788E9F600046E9A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F22788E14B00AC10C6 /* UIView+Extension.swift */; };
 		1FFD28282788E9F600046E9A /* NSMutableParagraphStyle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204F12788E14B00AC10C6 /* NSMutableParagraphStyle+Extension.swift */; };
 		1FFD28292788E9F600046E9A /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD204EF2788E14B00AC10C6 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
@@ -50,11 +48,9 @@
 		1FD204EB2788E14B00AC10C6 /* CALayer+Constructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Constructor.swift"; sourceTree = "<group>"; };
 		1FD204EC2788E14B00AC10C6 /* CAMediaTimingFunction+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+Extension.swift"; sourceTree = "<group>"; };
 		1FD204ED2788E14B00AC10C6 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
-		1FD204EE2788E14B00AC10C6 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		1FD204EF2788E14B00AC10C6 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		1FD204F02788E14B00AC10C6 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		1FD204F12788E14B00AC10C6 /* NSMutableParagraphStyle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Extension.swift"; sourceTree = "<group>"; };
-		1FD204F22788E14B00AC10C6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1FD204F32788E14B00AC10C6 /* NSImage+CGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+CGImage.swift"; sourceTree = "<group>"; };
 		1FD204F42788E14B00AC10C6 /* ImageLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLayer.swift; sourceTree = "<group>"; };
 		1FD204F52788E14B00AC10C6 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -134,8 +130,6 @@
 				1FD204E72788E14B00AC10C6 /* CGPath+SVG.swift */,
 				1FD204EF2788E14B00AC10C6 /* ShapeView.swift */,
 				1FD204F02788E14B00AC10C6 /* Animation.swift */,
-				1FD204F22788E14B00AC10C6 /* UIView+Extension.swift */,
-				1FD204EE2788E14B00AC10C6 /* UIImage+Extension.swift */,
 				1FD204F42788E14B00AC10C6 /* ImageLayer.swift */,
 				1FD204ED2788E14B00AC10C6 /* Timeline.swift */,
 				1FD204EA2788E14B00AC10C6 /* CAKeyframeAnimation+Extension.swift */,
@@ -272,9 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FFD28242788E9F600046E9A /* Timeline.swift in Sources */,
-				1FFD281B2788E9F600046E9A /* UIImage+Extension.swift in Sources */,
 				1FFD281A2788E9F600046E9A /* NSShadow+Extension.swift in Sources */,
-				1FFD28272788E9F600046E9A /* UIView+Extension.swift in Sources */,
 				1FFD28202788E9F600046E9A /* CATransaction+Extension.swift in Sources */,
 				1FFD28232788E9F600046E9A /* Layer.swift in Sources */,
 				1FFD28252788E9F600046E9A /* ImageLayer.swift in Sources */,

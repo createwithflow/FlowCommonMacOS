@@ -20,5 +20,4 @@
 import Foundation
 
 public class ImageLayer: Layer {
-    
 }

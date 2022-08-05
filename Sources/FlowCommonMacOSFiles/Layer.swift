@@ -20,5 +20,4 @@
 import AppKit
 
 public class Layer: CAShapeLayer {
-    
 }

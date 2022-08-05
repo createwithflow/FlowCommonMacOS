@@ -89,7 +89,7 @@ open class Timeline {
             guard let resetDispatchGroup = resetDispatchGroup else {
                 return
             }
-            
+
             resetDispatchGroup.enter()
             animation.reset { _ in resetDispatchGroup.leave() }
         }
